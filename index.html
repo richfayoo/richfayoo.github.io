@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Shavalino Fayola, an Informatics student building secure and responsive web applications."
+    />
+    <title>Shavalino Fayola | IT Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation: sticky header with primary links -->
+    <header class="site-header" id="top">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="#home">Shavalino Fayola</a>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="home">
+      <!-- Hero: headline, typing animation, CTA and profile visual -->
+      <section class="hero container">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Informatics Student • Internship Candidate</p>
+          <h1>Shavalino Fayola</h1>
+          <div class="typing-block" aria-live="polite">
+            <span class="typing-prefix">I’m an </span>
+            <span id="typing-text"></span>
+            <span class="cursor" aria-hidden="true">|</span>
+          </div>
+          <p class="hero-subtitle">
+            I build secure, responsive, and user-friendly web applications while continuously learning cybersecurity, software engineering, and software quality assurance.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="assets/resume.pdf" download>Download Resume</a>
+          </div>
+          <div class="social-row">
+            <a href="mailto:shavalinofayola@email.com">Email</a>
+            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <img src="assets/images/profile.jpg" alt="Illustration profile of Shavalino Fayola" loading="eager" />
+        </div>
+      </section>
+
+      <!-- About: short professional introduction and interests -->
+      <section id="about" class="section container reveal">
+        <div class="section-heading">
+          <p class="eyebrow"><span class="section-number">01</span> About Me</p>
+          <h2>Building practical software with curiosity and discipline.</h2>
+        </div>
+        <div class="about-content">
+          <p>
+            I am an Informatics student with a strong interest in web development, cybersecurity, and software quality assurance. I enjoy turning ideas into reliable digital products and I am especially motivated by projects that combine clean UI, secure architecture, and thoughtful testing.
+          </p>
+          <p>
+            I am passionate about learning new technologies, improving development workflows, and creating solutions that are both useful and maintainable. My goal is to grow into a well-rounded software engineer who can contribute effectively to real-world products.
+          </p>
+        </div>
+      </section>
+
+      <!-- Featured Projects: concise cards highlighting engineering work -->
+      <section id="projects" class="section container reveal">
+        <div class="section-heading">
+          <p class="eyebrow"><span class="section-number">02</span> Featured Projects</p>
+          <h2>Projects that reflect real engineering thinking.</h2>
+        </div>
+
+        <div class="project-grid">
+          <!-- Featured project: Countrol (AI Financial Management Platform) -->
+          <article class="card project-card featured-project">
+            <div class="featured-media">
+              <div class="featured-pill">Featured</div>
+              <div class="featured-title-block">
+                <p class="card-label">Hackathon Project</p>
+                <h3>Countrol – AI Financial Management Platform</h3>
+              </div>
+            </div>
+
+            <div class="featured-content">
+              <p>
+                An AI-powered financial management platform designed to help users manage their personal finances more efficiently.
+              </p>
+              <div class="featured-meta-block">
+                <h4>My Role</h4>
+                <ul>
+                  <li>Product Ideation</li>
+                  <li>Frontend Developer</li>
+                  <li>UI Implementation</li>
+                  <li>Team Collaboration</li>
+                </ul>
+              </div>
+              <div class="featured-meta-block">
+                <h4>Key Features</h4>
+                <ul>
+                  <li>AI-powered financial assistant</li>
+                  <li>Expense tracking</li>
+                  <li>Budget management</li>
+                  <li>Financial dashboard</li>
+                </ul>
+              </div>
+              <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>AI Agent</span>
+              </div>
+              <div class="card-actions">
+                <a class="btn btn-primary btn-small" href="https://www.youtube.com/watch?v=aMdx4VapaVk" target="_blank" rel="noreferrer">Demonstration</a>
+                <a class="btn btn-secondary btn-small" href="https://github.com/richfayoo/linggomnew" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div class="card-top">
+              <p class="card-label">Featured</p>
+              <h3>Linggom – AI T-Shirt Design Platform</h3>
+            </div>
+            <p>
+              A web-based platform that allows users to create custom t-shirt designs using both a manual editor and AI-powered design generation.
+            </p>
+            <div class="tech-stack">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>PHP</span>
+            </div>
+            <div class="card-actions">
+              <a class="text-link" href="https://github.com/richfayoo/linggomnew" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="text-link" href="#" target="_blank" rel="noreferrer">Live Demo</a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div class="card-top">
+              <p class="card-label">Automation</p>
+              <h3>Apache Log Analyzer</h3>
+            </div>
+            <p>
+              A Python application that parses Apache log files and highlights suspicious patterns using regular expressions and structured analysis.
+            </p>
+            <div class="tech-stack">
+              <span>Python</span>
+              <span>Regex</span>
+              <span>Log Analysis</span>
+            </div>
+            <div class="card-actions">
+              <a class="text-link" href="#" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="text-link" href="#" target="_blank" rel="noreferrer">Details</a>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div class="card-top">
+              <p class="card-label">Quality</p>
+              <h3>QA Testing Documentation</h3>
+            </div>
+            <p>
+              Manual testing documentation covering test cases, bug reports, regression scenarios, and structured validation processes for software products.
+            </p>
+            <div class="tech-stack">
+              <span>Manual Testing</span>
+              <span>Regression Testing</span>
+              <span>Test Case</span>
+              <span>Bug Report</span>
+            </div>
+            <div class="card-actions">
+              <a class="text-link" href="#" target="_blank" rel="noreferrer">View Documentation</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Skills: categorized skills covering frontend, backend, security, testing, and tools -->
+      <section id="skills" class="section container reveal">
+        <div class="section-heading">
+          <p class="eyebrow"><span class="section-number">03</span> Skills</p>
+          <h2>Focused on practical software engineering and secure development.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="card skill-card">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+            </ul>
+          </article>
+          <article class="card skill-card">
+            <h3>Backend</h3>
+            <ul>
+              <li>PHP</li>
+              <li>MySQL</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </article>
+          <article class="card skill-card">
+            <h3>Cybersecurity</h3>
+            <ul>
+              <li>Linux</li>
+              <li>Nmap</li>
+              <li>Burp Suite</li>
+              <li>SQLMap</li>
+              <li>Hydra</li>
+              <li>Wireshark</li>
+              <li>Wazuh</li>
+            </ul>
+          </article>
+          <article class="card skill-card">
+            <h3>Software Testing</h3>
+            <ul>
+              <li>Manual Testing</li>
+              <li>Test Case</li>
+              <li>Bug Reporting</li>
+              <li>Regression Testing</li>
+            </ul>
+          </article>
+          <article class="card skill-card">
+            <h3>Tools</h3>
+            <ul>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>VS Code</li>
+              <li>XAMPP</li>
+              <li>Figma</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact: ways to reach out, and resume download -->
+      <section id="contact" class="section container reveal">
+        <div class="card contact-card">
+          <p class="eyebrow"><span class="section-number">04</span> Contact</p>
+          <h2>Let’s build something useful together.</h2>
+          <p>
+            I am currently looking for opportunities to contribute to meaningful projects, strengthen my skills, and grow as a developer.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:shavalinofayola@email.com">shavalinofayola@email.com</a>
+            <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram</a>
+          </div>
+          <a class="btn btn-primary" href="assets/CV_Shavalino Fayola Bertha Pangaribuan.pdf" download>Download Resume</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer: copyright and back-to-top control -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Shavalino Fayola. Built with HTML, CSS, and JavaScript.</p>
+        <a href="#top" class="back-to-top" aria-label="Back to top">↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
