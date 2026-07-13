@@ -1,1 +1,0 @@
-# richfayoo.github.io
